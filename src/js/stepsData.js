@@ -43,7 +43,7 @@ export const steps = [
                 <div>
                     <label for="city-select">
                         Город
-                        <img src="../img/select-arrow.svg" alt="select-arrow" />
+                        <img src="./img/select-arrow.svg" alt="select-arrow" />
                     </label>
                     <select id="city-select" name="city">
                         <option value="moscow">Москва</option>
@@ -206,7 +206,7 @@ export const steps = [
                 <div>
                     <label for="speciality-select">
                         Специальность
-                        <img src="../img/select-arrow.svg" alt="select-arrow" />
+                        <img src="./img/select-arrow.svg" alt="select-arrow" />
                     </label>
                     <select id="speciality-select" name="speciality">
                         <option value="economic">Экономика</option>
@@ -282,7 +282,7 @@ export const steps = [
 
 export const success = `
     <div class="success-block">
-        <img src="../img/success.png" alt="success" />
+        <img src="./img/success.png" alt="success" />
         <h2>Отлично, спасибо!</h2>
         <p>Мы отправили подборку вам на почту.
             Если подборка не приходит — проверьте спам, возможно, она попала туда.</p>
